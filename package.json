@@ -1,0 +1,22 @@
+{
+  "name": "waterwalls",
+  "version": "1.0.0",
+  "description": "Small app to count water blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTheCry/waterWalls.git"
+  },
+  "author": "Corey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamTheCry/waterWalls/issues"
+  },
+  "homepage": "https://github.com/IamTheCry/waterWalls#readme",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
