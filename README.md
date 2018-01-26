@@ -17,9 +17,9 @@ A length 3 array describing which two walls can catch the most water and the amo
 ```
 ## How?
 waterWalls will:
-1. loop through the input array to find left highest value at each index
-2. loop through the input array to find right highest value at each index
-3. 
+1. Find blocks where water can be caught
+2. Find the largest block
+3. Return the largest block
 
 
 ## Testing
