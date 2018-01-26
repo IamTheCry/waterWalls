@@ -15,8 +15,11 @@ A length 3 array describing which two walls can catch the most water and the amo
 // from sample input above
 [3, 8, 11]
 ```
-
 ## How?
+waterWalls will:
+1. loop through the input array to find left highest value at each index
+2. loop through the input array to find right highest value at each index
+3. 
 
 
 ## Testing
