@@ -1,8 +1,12 @@
-const waterWalls = (arr) => {
-  let biggestBlock = [];
-  // loop through 
-  // return block with most water
-  return biggestBlock;
+const waterWalls = (walls) => {
+  let leftMax = [];
+  let rightMax = [];
+  let max = 0;
+  for (let i = 0; i < walls.length; i++) {
+    if (walls[i] > max) max = walls[i];
+    leftMax.push(max)
+  }
+  console.log(leftMax)
 }
 
 const findBlock = (arr) => {
