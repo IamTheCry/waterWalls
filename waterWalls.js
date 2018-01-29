@@ -17,4 +17,4 @@ const countWater = (arr) => {
   // takes an array of blocks and calculates how much water is in each
 }
 
-module.exports = waterWalls;
+module.exports = { waterWalls };

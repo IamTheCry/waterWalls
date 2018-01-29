@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('./client/dist/index.html'));
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
 
